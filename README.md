@@ -10,6 +10,4 @@ b)  Taking this approach a step further, one can make a polar plot r = f(θ) for
 c)  Using the same method, make a polar plot of “Fey’s function” in the range 0 ≤ θ ≤ 24π.
 $$r = e^{\cos{\theta}} - 2 \cos{4 \theta} + \sin^5{\frac{\theta}{12}} $$ 
 
-Put all 3 plots in one figure with labels making it clear which plot is which. If you're doing this with an ipython notebook, you can have the figure display inline. Otherwise, save the figure as a png or pdf file, and include it in this repository.
-
-
+Put all 3 plots in one figure with labels making it clear which plot is which. If you're doing this with an ipython notebook, you can have the figure display inline. Otherwise, save the figure as a png or pdf file, and include it in your clone of this repository.
