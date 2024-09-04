@@ -13,6 +13,7 @@ $$r = e^{\cos{\theta}} - 2 \cos{4 \theta} + \sin^5{\frac{\theta}{12}} $$
 Put all 3 plots in one figure with labels making it clear which plot is which. If you're doing this with an ipython notebook, you can have the figure display inline. Otherwise, save the figure as a png or pdf file, and include it in your clone of this repository.
 
 
+![image](https://github.com/user-attachments/assets/4a6e750f-acde-455a-876f-d6274c09d316)
 
 
 The [repository](https://github.com/CUNY-CompMethods-2024/Homework1) for the assignment is public. Unfortunately, Github does not directly allow the creation of private forks for public repositories. To create a private fork, you can duplicate the repo as documented [here](https://help.github.com/articles/duplicating-a-repository/) and an example description [here](https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274)
