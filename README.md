@@ -22,44 +22,44 @@ To clone this assignment, the commands are as follows:
  1. Create a bare clone of the repository.
     (This is temporary and will be removed so just do it wherever.)
     ```bash
-    git clone --bare git@github.com:CUNY-CompMethods-2024/Homework1.git
+    git clone --bare https://github.com/CUNY-CompMethods-2024/Homework1.git
     ```
 
- 2. [Create a new private repository on Github](https://help.github.com/articles/creating-a-new-repository/) and name it `my_homework1`.
+ 2. [Create a new private repository on Github](https://help.github.com/articles/creating-a-new-repository/) and name it `Homework1`.
     > If you are unable to create a private repo, you can request unlimited private repos as a studant by getting
     > the [student pack](https://education.github.com/pack) from Github.
 
- 3. Mirror-push your bare clone to your new `my_homework1` repository.
+ 3. Mirror-push your bare clone to your new `Homework1` repository.
     > Replace `<your_username>` with your actual Github username in the url below.
     
     ```bash
-    cd my_homework1.git
-    git push --mirror git@github.com:<your_username>/my_homework1.git
+    cd Homework1.git
+    git push --mirror git@github.com:<your_username>/Homework1.git
     ```
 
  4. Remove the temporary local repository you created in step 1.
     ```bash
     cd ..
-    rm -rf my_homework1.git
+    rm -rf Homework1.git
     ```
     
- 5. You can now clone your `my_homework1` repository on your machine (in my case in the `code` folder).
+ 5. You can now clone your `Homework1` repository on your machine (in my case in the `code` folder).
     ```bash
     cd ~/code
-    git clone git@github.com:<your_username>/my_homework1.git
+    git clone git@github.com:<your_username>/Homework1.git
     ```
    
  6. (OPTIONAL) If you want, add the original repo as remote to fetch (potential) future changes.
     Make sure you also disable push on the remote (as you are not allowed to push to it anyway).
     ```bash
-    git remote add upstream git@github.com:CUNY-CompMethods-2024/Homework1.git
+    git remote add upstream https://github.com/CUNY-CompMethods-2024/Homework1.git
     git remote set-url --push upstream DISABLE
     ```
     You can list all your remotes with `git remote -v`. You should see:
     ```
-    origin	git@github.com:<your_username>/my_homework1.git (fetch)
-    origin	git@github.com:<your_username>/my_homework1.git (push)
-    upstream	git@github.com:usi-systems/my_homework1.git (fetch)
+    origin	git@github.com:<your_username>/Homework1.git (fetch)
+    origin	git@github.com:<your_username>/Homework1.git (push)
+    upstream	git@github.com:usi-systems/Homework1.git (fetch)
     upstream	DISABLE (push)
     ```
     > When you push, do so on `origin` with `git push origin`.
